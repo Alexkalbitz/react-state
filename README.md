@@ -1,1 +1,5 @@
-# react-state
+# First playground
+
+```bash
+yarn start
+```
