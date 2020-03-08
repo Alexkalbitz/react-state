@@ -1,6 +1,9 @@
 import React from 'react';
 import './App.css';
 
+// https://www.techdiagonal.com/wp-content/uploads/2019/09/react-props-blog-image-design-2.jpg
+
+// a state definition
 interface IState {
   counter: number
   enabled: boolean
@@ -8,7 +11,7 @@ interface IState {
 
 // a class based component
 
-class App extends React.Component {
+class App extends React.Component<{}, IState> {
 
   // initial state
   public state: IState = {
